@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+body{
+    background-color: azure;
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 70%;
+    height: 100%;
+    
+}
+.seccion1{
+    width: 75%;
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.btn-encriptar{
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(199, 194, 194);
+    transition: 1s all;
+    
+}
+.btn-encriptar:hover{
+    background: greenyellow;
+    transform: scale(1.20);
+}
+.btn-desencriptar{
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: grey;
+    transition: 1s all;
+}
+.btn-desencriptar:hover{
+    background: greenyellow;
+    transform:scale(1.20);
+}
+.opcion-input{
+    text-align: center;
+    margin-top: 15px;
+}
+.anuncio{
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+.seccion2{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.opcion-logo{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.opcion-h2{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.opcion-texto{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.opcion-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
